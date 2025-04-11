@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+ecommerce.db
+.env
+venv/
+.idea/
+.DS_Store
