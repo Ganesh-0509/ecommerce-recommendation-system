@@ -33,6 +33,7 @@ ecommerce-recommendation-system/
 ### 1. Clone the repository
 
 git clone https://github.com/Ganesh-0509/ecommerce-recommendation-system.git
+
 cd ecommerce-recommendation-system
 
 ### 2. (Optional) Set up a virtual environment
