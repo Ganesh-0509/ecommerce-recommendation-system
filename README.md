@@ -16,15 +16,15 @@ It uses:
 
 ## 🧩 Project Structure
 
-ecommerce-recommendation-system/ 
-├── agents/ # Agents for handling product, customer, memory, and recommendations 
-├── scripts/ # Utility scripts (generate embeddings, etc.) 
-│ └── generate_embedding.py 
-├── utils/ # Helper utilities (embedding helper, similarity helper, etc.) 
-├── ecommerce.db # SQLite database 
-├── requirements.txt # Python dependencies 
-├── test_script.py # Main testing script 
-└── README.md # Project documentation
+    ecommerce-recommendation-system/ 
+    ├── agents/ # Agents for handling product, customer, memory, and recommendations 
+    ├── scripts/ # Utility scripts (generate embeddings, etc.) 
+    │ └── generate_embedding.py 
+    ├── utils/ # Helper utilities (embedding helper, similarity helper, etc.) 
+    ├── ecommerce.db # SQLite database 
+    ├── requirements.txt # Python dependencies 
+    ├── test_script.py # Main testing script 
+    └── README.md # Project documentation
 
 ---
 
