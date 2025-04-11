@@ -1,0 +1,5 @@
+ollama==0.4.7
+pydantic==2.11.3
+pydantic_core==2.33.1
+scikit-learn==1.4.1.post1
+numpy==1.26.4
