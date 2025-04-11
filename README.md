@@ -13,46 +13,51 @@ It uses:
 - **SQLite** for lightweight database storage
 - Modular design: Agents for customers, products, memory, and recommendations
 
----
 
 ## 🧩 Project Structure
 
-ecommerce-recommendation-system/ ├── agents/ # Agents for handling product, customer, memory, and recommendations ├── scripts/ # Utility scripts (generate embeddings, etc.) │ └── generate_embedding.py ├── utils/ # Helper utilities (embedding helper, similarity helper, etc.) ├── ecommerce.db # SQLite database ├── requirements.txt # Python dependencies ├── test_script.py # Main testing script └── README.md # Project documentation
-
-
+ecommerce-recommendation-system/ 
+├── agents/ # Agents for handling product, customer, memory, and recommendations 
+├── scripts/ # Utility scripts (generate embeddings, etc.) 
+│ └── generate_embedding.py 
+├── utils/ # Helper utilities (embedding helper, similarity helper, etc.) 
+├── ecommerce.db # SQLite database 
+├── requirements.txt # Python dependencies 
+├── test_script.py # Main testing script 
+└── README.md # Project documentation
 
 ---
 
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/ecommerce-recommendation-system.git
+
+git clone https://github.com/Ganesh-0509/ecommerce-recommendation-system.git
 cd ecommerce-recommendation-system
 
-2. (Optional) Set up a virtual environment
+### 2. (Optional) Set up a virtual environment
 
-python -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate     # For Windows
+    python -m venv venv
+    source venv/bin/activate  # For Linux/Mac
+    venv\Scripts\activate     # For Windows
 
-3. Install dependencies
+### 3. Install dependencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-4. Ensure your database is ready
+### 4. Ensure your database is ready
 
     Make sure ecommerce.db is in your project root. If needed, update the database schema manually or via setup scripts.
 
-5. Generate embeddings for products
+### 5. Generate embeddings for products
 
     python scripts/generate_embedding.py
 
-6. Run tests and demo
+### 6. Run tests and demo
 
     python test_script.py
 
-🧠 How it works
+### 🧠 How it works
     1.Product embeddings: Text descriptions of products are converted into vector embeddings using Ollama AI.
 
     2.Customer interactions: Customer queries and preferences are matched with product vectors.
@@ -61,41 +66,41 @@ pip install -r requirements.txt
 
     4.Test script: Run the end-to-end flow to see recommendations in action!
 
-🛠️ Technologies Used
-    Python 3.x
+### 🛠️ Technologies Used
+    1.Python 3.x
 
-    SQLite
+    2.SQLite
 
-    Ollama AI
+    3.Ollama AI
 
-    Logging
+    4.Logging
 
-    Cosine Similarity
+    5.Cosine Similarity
 
-    Modular Python architecture
+    6.Modular Python architecture
 
-✨ Features
-    Automatic embedding generation for products
+### ✨ Features
+    1.Automatic embedding generation for products
 
-    Scalable architecture with agents (Product, Customer, Memory, Recommender)
+    2.Scalable architecture with agents (Product, Customer, Memory, Recommender)
 
-    Testable system with test_script.py
+    3.Testable system with test_script.py
 
-    Lightweight, fast, and easy to deploy
+    4.Lightweight, fast, and easy to deploy
 
-📄 License
-    This project is open-source and available under the MIT License.
+### 📄 License
+    5.This project is open-source and available under the MIT License.
 
-🤖 Author
-Your Name
+### 🤖 Author
+    Ganesh Kumar T
+    Vinothini T
 
 If you like this project, give it a ⭐️ and share!
 
-🙌 Contributions
-Contributions are welcome!
-Feel free to open issues or submit pull requests to improve the system.
+### 🙌 Contributions
+    Contributions are welcome!
+    Feel free to open issues or submit pull requests to improve the system.
 
 
----
 
 
